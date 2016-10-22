@@ -363,7 +363,7 @@ ul.none {
                     <div class="small-12 medium-12 large-12  columns " >
                         <h5  ><font color = "#4682B4">Descrisão</font></h5>
                         <p  class="text-justify" ${casa.descricaoImovel}  >
-                            Casa Riral próximo a  Prefeitura Municipal com 3 dormitórios, 2 cozinhas, 2 banheiros, copa, sala ampla,  com despensa
+                            Casa Rural próximo a  Prefeitura Municipal com 3 dormitórios, 2 cozinhas, 2 banheiros, copa, sala ampla,  com despensa
                             3 vagas de garagem coberta e 1 sem cobertura,  toda em piso frio em excelente estado, pinturas novas, murada, portão eletrônico.
 
                         </p>
