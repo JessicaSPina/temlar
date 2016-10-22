@@ -1,0 +1,5 @@
+#f18910 laranjão
+#082C66 azul logo
+#008CBA   azul do menu
+#FFA500 laranja do hover botão
+#0000CD	 azul icone facebook 

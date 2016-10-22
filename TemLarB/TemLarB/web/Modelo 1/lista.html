@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="pt-br" >
+
+    <head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foundation.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css"/>
+        <!-- If you delete this meta tag World War Z will become a reality -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalho Foundation</title>
+        <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/foundation.min.css" type="text/css"/>
+
+        <script src="js/vendor/modernizr.js"></script>
+
+        <style type="text/css">
+            .white{
+                background-color: white;
+            }
+            .yellow{
+                background-color: yellow;
+            }
+			body {
+  margin: 0;
+  background-color: #C0C0C0;
+}
+		
+        </style>
+    </head>
+    <body> 
+
+ 
+ </br></br></br> 
+ <div class="row"> <!-- começo da pagina Lista de Compras -->
+	    <div class="small-12 medium-12 large-12 white columns panel" > 
+		<a name="lista"></a>
+	  
+	 <h2 data-magellan-destination="lista"></h2>
+
+     
+	<fieldset>
+	<legend>Lista de Compras</legend>
+	<form method="POST" action="inserir.php">
+		Nome: &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;<input  type="text" name="nome"></br>
+		Quantidade: <input  type="number" name="quantidade"></br>
+		Valor: &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; <input  type="number" name="valor"></br></br>
+		<input type="submit" value="Adicionar"> <input type="reset" value="Limpar"> <input type="button" onclick="excluirTodos()"     value="Excluir Todos" ></br></br>
+		
+			<table border="1">
+				<tbody>
+				<tr>
+					<th>ID</th>
+					<th>Nome</th>
+					<th>Qtde</th>
+					<th>Valor</th>
+					<th>Total</th>
+					<th>Editar?</th>
+					<th>Excluir?</th>
+					
+				</tr>
+				
+				</tbody>
+				
+	</fieldset>  
+</div>
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>
