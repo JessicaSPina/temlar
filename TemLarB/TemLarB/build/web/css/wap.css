@@ -1,0 +1,47 @@
+ .azul{
+
+                background-color:  #4682B4;
+
+            }
+            .yellow{
+
+                background-color: yellow;
+
+            }
+
+            
+
+            h4.right{
+                font-family:  Trebuchet MS;
+                font-size:  1.5em;
+                color: #4682B4;
+
+            }
+
+            h6.left{
+                font-family:  Trebuchet MS;
+
+                color: #fff;
+
+            }
+            .diferente{
+                color: #fff;
+
+            }
+            h6.textoFooter{
+                font-family:  Trebuchet MS;
+
+                color: white;
+
+
+            }
+
+           .imagem{
+                background-image: url(img/footer.png);
+                height: 550px;
+                position: center;
+            }
+
+      ul.none {
+	list-style-type: none;
+	}
