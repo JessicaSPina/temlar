@@ -426,7 +426,7 @@
                         </li>
                         <li>Página Inicial
 
-                        <li>casa
+                        <li>Casa
                         <li> Lista de casas
                         </li>
                         <!--   <ul class="right inline-list">
